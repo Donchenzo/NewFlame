@@ -1,28 +1,48 @@
-body{background-color: rgb(238, 226, 226);
+body{background-color: rgb(1, 32, 10);
     font-size:large;
     
 }
 
 .topnav a {
     float: right;
-    color: #2a4c68;
+    color: #05c575;
     text-align: center;
     padding: 21px 16px;
     text-decoration: none;
-    font-size: 20px;}
+    font-size: 20px;
+    /* background-color: #555; */
+    
+  }
 
-    h1 {color: rgb(45, 72, 179);
-     
-        font-family: helvetica,'Times New Roman', Times, serif;
-        font-size: 32px;
-        padding-top: 10px;
-        padding-left: 2.5%}
+  a:hover {
+    background-color: #555;
+    color: white;
+    position: -webkit-sticky;
+    position:sticky
+  }
 
-  h2 {line-height: 120px;
-            text-align: center;
-            font-size:40px;
-            color: #195f99;
-        
-        }
+
+h2 {line-height: 120px;
+    text-align: center;
+    font-size:40px;
+    color: #05c575;
+  }
+
+
+ /* p{
+        font-size: 16px;
+        width:60%;
+        border: 2px solid black;
+        height: 150px;
+        float: right; } */
+
+h1 { color: #05c575;;
+    
+     font-family: helvetica,'Times New Roman', Times, serif;
+     font-size: 32px;
+     padding-top: 10px;
+     padding-left: 2.5%
+
+    }
 
     p {text-align: center;}
