@@ -1,68 +1,90 @@
-/* uaueaibevfiaev vavnie */
-
-
-
-
-body{background-color: rgb(1, 32, 10);
-    font-size:large;
-    
+body{background-color: rgb(49, 92, 61);; 
+  font-size:large;   
+  border:  solid black;
+  display:flex;
+  flex-direction: column;
 }
 
-.topnav a {
-    float: right;
+#topnav {
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #274712;
+    margin: 0%;
+    padding: 0%;
+}
+
+#topnav a {
+   
     color: #05c575;
-    text-align: center;
-    padding: 21px 16px;
+    text-align: end;
+    padding: 5% 4%;
     text-decoration: none;
-    font-size: 20px;
-    /* background-color: #555; */
-    
-  }
-
-  a:hover {
+    font-size: 1.1em; 
+}  
+  
+a:hover {
     background-color: #555;
-    color: white;
-    position: -webkit-sticky;
-    position:sticky
+   
   }
 
-
-h2 {line-height: 120px;
+  h2 {line-height: 250%;
     text-align: center;
-    font-size:40px;
+    font-size:200%;
     color: #05c575;
   }
 
+#header {
+  width: 60%
+}
 
- /* p{
-        font-size: 16px;
-        width:60%;
-        border: 2px solid black;
-        height: 150px;
-        float: right; } */
+#menulinks{
+  width: 20%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  height: auto;
+  align-items: center;
+
+}
 
 h1 { color: #05c575;;
-    
      font-family: helvetica,'Times New Roman', Times, serif;
-     font-size: 32px;
-     padding-top: 10px;
+     font-size: 180%;
+     padding-top: 1%;
      padding-left: 2.5%
+}
 
-    }
-img {
-     display: grid;
-        align-items: center; 
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 5px;
-        border-style: dotted;
-        max-width: 50%;
-         max-height:50%;
+/* .............................................................................................................. */
 
-       }
-       .img2 {margin-left: 50%;}
-       .img1 {margin-right: 50%;}
-       .text {
-         font-size: 70px;
-         
-         
-       }
+
+
+
+
+/* .............................................................................................................. */
+
+
+
+.img2{display: flex;
+  align-items: center; 
+  justify-content: center;
+  
+}
+
+.data{ display: flex;
+       border: 2px solid rgb(0, 0, 0); 
+       padding-top: 3%;
+       padding-bottom: 3%;
+       background-color:rgb(26, 77, 41);
+       align-items: center;
+
+}
+
+
+
+.footer{display: flex;
+  background-color:  #274712;
+  height: 100%;
+
+}

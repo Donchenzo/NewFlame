@@ -1,48 +1,101 @@
-body{background-color: rgb(1, 32, 10);
-    font-size:large;
+body{background-color: rgb(93, 141, 107); 
+  font-size:large;   
+  border:  solid black;
+  display:flex;
+  flex-direction: column;
+}
+
+#topnav {
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #274712;
+  margin: 0%;
+  padding: 0%;
+}
+
+#topnav a {
+ 
+  color: #05c575;
+  text-align: end;
+  padding: 5% 4%;
+  text-decoration: none;
+  font-size: 1.1em; 
+}  
+
+a:hover {
+  background-color: #555;
+
+}
+
+h2 {line-height: 250%;
+  text-align: center;
+  font-size:200%;
+  color: #05c575;
+}
+
+#header {
+width: 60%
+}
+
+#menulinks{
+width: 20%;
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+height: auto;
+align-items: center;
+
+}
+
+h1 { color: #05c575;;
+     font-family: helvetica,'Times New Roman', Times, serif;
+     font-size: 180%;
+     padding-top: 1%;
+     padding-left: 2.5%
+}
+
+/* ................................................................................................................................................................................... */
+
+.main {display: flex;
+      justify-content: center;
+      border: 2px solid rgb(0, 0, 0);
+      background-color: rgb(49, 92, 61);
+      flex-direction: column;
+      font-family: helvetica,'Times New Roman', Times, serif;
+      font-size: 100%;
+      text-align: center;
+      width:80%;
+      margin-left: 10%;
+}
+
+.container {display: flex;
+            /* border: 2px solid orange; */
+            justify-content: center;
+}
+
+.item1 {display: flex;
+        /* border: 2px solid greenyellow; */
+        width: 40%;
+        justify-content: flex-end;
+}
+
+.item2 {display: flex;
+        /* border: 2px solid red; */
+        width: 40%;
+        /* flex-wrap: wrap; */
+        font-family: helvetica,'Times New Roman', Times, serif;
+        font-size: 100%;
+        padding-left: 2.5%;
+        align-items: center;
     
 }
 
-.topnav a {
-    float: right;
-    color: #05c575;
-    text-align: center;
-    padding: 21px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    /* background-color: #555; */
-    
-  }
+/* .............................................................................................................................................................................. */
 
-  a:hover {
-    background-color: #555;
-    color: white;
-    position: -webkit-sticky;
-    position:sticky
-  }
+.footer{display: flex;
+        background-color:  #274712;
+        height: 100%;
 
-
-h2 {line-height: 120px;
-    text-align: center;
-    font-size:40px;
-    color: #05c575;
-  }
-
-
- /* p{
-        font-size: 16px;
-        width:60%;
-        border: 2px solid black;
-        height: 150px;
-        float: right; } */
-
-h1 { color: #05c575;;
-    
-     font-family: helvetica,'Times New Roman', Times, serif;
-     font-size: 32px;
-     padding-top: 10px;
-     padding-left: 2.5%
-
-    }
-
-    p {text-align: center;}
+}
